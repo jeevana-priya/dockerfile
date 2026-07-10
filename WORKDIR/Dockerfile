@@ -1,4 +1,4 @@
 FROM almalinux:9
-RUN cd/app
-RUN echo "present directory ${pwd}"
+RUN WORKDIR/app
+RUN echo "present directory ${PWD}"
 CMD ["sleep", "100"]
